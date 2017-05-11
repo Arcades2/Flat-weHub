@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Greenshock</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css">
+	</head>
+	<body>
+		<ul id="menu">
+			<li data-menuanchor="homepage" class="active"><a href="#homepage">Accueil</a></li>
+			<li data-menuanchor="features"><a href="#features">Services</a></li>
+			<li data-menuanchor="team"><a href="#team">Team</a></li>
+			<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+		</ul>
+		<div id="fullpage">
+			<div data-anchor="homepage" class="section">
+				<div class="circle">
+					<img id="logo" src="img/logo.png" alt="Wehub" />
+				</div>
+			</div>
+			<div data-anchor="features" class="section">
+				<h2 id="features_title">Services</h2>
+				<div id="development" class="category">
+					<p class="year">2017</p>
+					<div class="card"></div>
+					<h3>Développement</h3>
+					<p class="description">Développement Web / iOS / Android</p>
+					<div class="line"></div>
+					<p class="hashtag">#Web Development #Graphic Conception #Design</p>
+				</div>
+				<div id="coworking" class="category">
+					<p class="year">2017</p>
+					<div class="card"></div>
+					<h3>Coworking</h3>
+					<p class="description">Bureaux partagés / privés, salle de réunion</p>
+					<div class="line"></div>
+					<p class="hashtag">#Coworking #Wehub</p>
+				</div>	
+			</div>
+			<div data-anchor="team" class="section">
+				<h2 id="team_title">Team Wehub</h2>
+				<ul id="team_list">
+					<li class="team_member">
+						<img src="img/adrien.png" alt="Adrien">
+						<p class="role">Conseiller en affaires</p>
+					</li>
+					<li class="team_member">
+						<img src="img/etienne.png" alt="Etienne">
+						<p class="role">Développeur Web</p>
+					</li>
+					<li class="team_member">
+						<img src="img/jimmy.png" alt="Jimmy">
+						<p class="role">Développeur Web</p>
+					</li>
+					<li class="team_member">
+						<img src="img/paul.png" alt="Paul">
+						<p class="role">CoFondateur Webmaster</p>
+					</li>
+					<li class="team_member">
+						<img src="img/pierre.png" alt="Pierre">
+						<p class="role">CoFondateur Marketing</p>
+					</li>
+				</ul>
+			</div>
+			<div data-anchor="contact" class="section">
+				<h2 id="contact_title">Contact</h2>
+				<div id="form-main">
+				  	<div id="form-div">
+					    <form class="form" id="form1">
+			
+					      <p class="name">
+					        <input name="name" type="text" class="feedback-input" placeholder="Nom" id="name" />
+					      </p>
+					      
+					      <p class="email">
+					        <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+					      </p>
+					      
+					      <p class="text">
+					        <textarea name="text" class="feedback-input" id="comment" placeholder="Votre message ici..."></textarea>
+					      </p>
+
+					      <div class="submit">
+					        <input type="submit" value="Envoyer" id="button-blue"/>
+					        <div class="ease"></div>
+					      </div>
+					    </form>
+				  	</div>
+				</div>
+			</div>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+		<script src="js/main.js"></script>
+		<!--Livereload-->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</body>
+</html>
